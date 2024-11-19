@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  main {
+    display: flex;
+    margin: 5 10px;
+    margin-left: 150px;
+  
+    a {
+      text-decoration: none;
+    }
+  
+  }
+  
+  header{
+    background-color: rgb(45, 45, 45); 
+    color: white";
+    margin-left: 20px;
+  }
+  nav{
+    background-color: rgb(7, 98, 183);
+  }
+  nav div{
+    justify-content: space-between;
+    display: flex;
+    padding: 5px 50px;
+    margin-left: 25px;
+  }
+  nav a,
+  header a {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+  }
+  header div {
+    justify-content: space-between;
+    display: flex;
+    padding: 5px 50px;
+    margin-left: 100px;
+  }
+  
+  .left-section {
+    flex: 4.5;
+    width: 80%;
+    font-size: small;
+  }
+  .right-section {
+    flex: 2;
+    width: 80%;
+    padding: 20px;
+    margin-left: 20px;
+    font-size: small;
+  }
+  
